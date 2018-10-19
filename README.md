@@ -1,4 +1,6 @@
 # NURE_BPID_RSA
-Simple implementation of RSA algorithm of encryption. This implementation works with keys to 512 bit and
-created only like example for practice in university.
-Technologies: Java+Swing
+Simple implementation of RSA algorithm of encryption.
+
+More information about RSA: [Wikipedia RSA](https://en.wikipedia.org/wiki/RSA_(cryptosystem))
+
+This implementation works with keys up to 512 bit.
