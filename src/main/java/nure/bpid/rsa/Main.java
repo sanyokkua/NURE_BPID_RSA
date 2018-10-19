@@ -1,4 +1,4 @@
-package NURE.BPID.RSA;
+package nure.bpid.rsa;
 
 public class Main {
 

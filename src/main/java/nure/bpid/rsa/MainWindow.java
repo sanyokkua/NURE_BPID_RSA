@@ -1,8 +1,10 @@
-package NURE.BPID.RSA;
+package nure.bpid.rsa;
 
-import NURE.BPID.RSA.CORE.RSA;
+import nure.bpid.rsa.core.RSA;
 
 import javax.swing.*;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
 import java.awt.event.KeyAdapter;
 import java.awt.event.KeyEvent;
 import java.util.Arrays;
@@ -56,8 +58,18 @@ public class MainWindow extends JFrame {
                 checkDataForEncryption();
             }
         });
-        buttonEncrypt.addActionListener((e) -> encryptData());
-        buttonDecrypt.addActionListener((e) -> decryptData());
+        buttonEncrypt.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                encryptData();
+            }
+        });
+        buttonDecrypt.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                decryptData();
+            }
+        });
     }
 
 

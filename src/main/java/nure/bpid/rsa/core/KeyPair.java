@@ -1,11 +1,11 @@
-package NURE.BPID.RSA.CORE;
+package nure.bpid.rsa.core;
 
 /**
  * Created by Alexander on 02.04.2015.
  */
 public class KeyPair {
-    private long key;
-    private long N;
+    private final long key;
+    private final long N;
 
     public KeyPair(long key, long N) {
         this.key = key;

@@ -1,4 +1,4 @@
-package NURE.BPID.RSA.CORE;
+package nure.bpid.rsa.core;
 
 import java.util.ArrayList;
 import java.util.Arrays;
