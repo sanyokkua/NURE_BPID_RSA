@@ -1,4 +1,4 @@
-package nure.bpid.rsa.core;
+package com.kostenko.rsa.core;
 
 /**
  * Created by Alexander on 02.04.2015.

@@ -1,4 +1,4 @@
-package nure.bpid.rsa;
+package com.kostenko.rsa;
 
 public class Main {
 

@@ -16,7 +16,7 @@
                 <configuration>
                     <archive>
                         <manifest>
-                            <mainClass>nure.bpid.rsa.Main</mainClass>
+                            <mainClass>com.kostenko.rsa.Main</mainClass>
                         </manifest>
                     </archive>
                     <descriptorRefs>
@@ -51,7 +51,7 @@
                         <manifest>
                             <addClasspath>true</addClasspath>
                             <classpathPrefix>lib/</classpathPrefix>
-                            <mainClass>nure.bpid.rsa.Main</mainClass>
+                            <mainClass>com.kostenko.rsa.Main</mainClass>
                         </manifest>
                     </archive>
                 </configuration>

@@ -1,6 +1,6 @@
-package nure.bpid.rsa;
+package com.kostenko.rsa;
 
-import nure.bpid.rsa.core.RSA;
+import com.kostenko.rsa.core.RSA;
 
 import javax.swing.*;
 import java.awt.event.ActionEvent;

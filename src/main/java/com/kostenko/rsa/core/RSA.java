@@ -1,4 +1,4 @@
-package nure.bpid.rsa.core;
+package com.kostenko.rsa.core;
 
 import java.util.ArrayList;
 import java.util.Arrays;
